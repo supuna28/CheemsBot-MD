@@ -208,7 +208,7 @@ if (budy.includes('https://chat.whatsapp.com/')) {
             console.log('Reseted Limit')
         }, {
             scheduled: true,
-            timezone: "Asia/Kolkata"
+            timezone: "Asia/Colombo"
         })
 	    
 //[respond cmd with media]\\
