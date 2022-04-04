@@ -563,7 +563,7 @@ case 'react': {
 
                 }
 
-                hisoka.sendMessage(m.chat, reactionMessage)
+                XeonBotInc.sendMessage(m.chat, reactionMessage)
 
             }
 
