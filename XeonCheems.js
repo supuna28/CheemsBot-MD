@@ -547,6 +547,27 @@ Type *give up* to surrender and admit defeat`
             }
             }
             break
+case 'react': {
+
+                if (!isCreator) throw mess.owner
+
+                reactionMessage = {
+
+                    react: {
+
+                        text: args[0],
+
+                        key: { remoteJid: m.chat, fromMe: true, id: quoted.id }
+
+                    }
+
+                }
+
+                hisoka.sendMessage(m.chat, reactionMessage)
+
+            }
+
+            break  
             case 'delttc': case 'delttt': {
             this.game = this.game ? this.game : {}
             try {
