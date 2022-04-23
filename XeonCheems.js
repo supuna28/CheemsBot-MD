@@ -2404,7 +2404,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `BOT KINGDOM`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'instagram ❣️',
