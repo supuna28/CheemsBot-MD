@@ -2382,7 +2382,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 reply(respon)
             }
             break
-            case 'owner': case 'creator': {
+            case 'ownerrrrs': case 'creatorrrrs': {
             XeonBotInc.sendContact(m.chat, global.pemilik, m)
            const devsound = fs.readFileSync('./XeonMedia/botdev.mp3') //u can change the music in XeonMedia folder
            XeonBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
